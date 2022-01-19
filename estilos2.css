@@ -1,0 +1,51 @@
+body {
+    background-color: #f1da73;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+#miImagen{
+    width: 250px;
+    height: 250px;
+}
+
+article, header, nav, aside{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.miHipervinculo{
+    font-size: xx-large;
+    border: 1px solid #122d50;
+}
+
+.miHipervinculo:hover{
+    color: #14884d;
+}
+
+section img{
+    float: left;
+    margin: 10px;
+}
+
+section {
+    background-color: #efc46c;
+    padding: 10px; 
+    margin: 20px;
+    border-radius: 25px;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* 
+    
+        Hola esto es un comentario
+        Que será ignorado por el
+        computador
+        pero será util para el
+        programador
+    */
+}

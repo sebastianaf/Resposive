@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+    background-color: #ded6dd;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header h1{
+    font-size: 60px;
+}
+
+a{
+    font-size: x-large;
+    color: #8e6667;
+    margin: 0 20px 0 20px;
+    text-align: center;
+}
+
+a:hover{
+    color: #998075;
+    border: 1px solid #998075;
+}
+
+.miHipervinculo{
+    font-size: xx-large;
+}
+
+#miImagen{
+    width: 200px;
+    height: 200px;
+}
+
+section{
+    background-color: #a9a298;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 80%;
+    text-align: justify;
+}
+
+section img{
+    float: left;
+    margin: 0px 10px 10px 0px
+}
+
+article, header, nav, aside{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
